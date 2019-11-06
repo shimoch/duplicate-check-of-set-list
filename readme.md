@@ -1,6 +1,6 @@
 # 使用方法
 
-#### 1.  title_check ディレクトリ直下に `dj.txt` を作成し、英小文字でDJ名を中身に記入
+#### 1.  title_check ディレクトリ直下に `dj.txt` を作成し、DJ名を英小文字で中身に記入
 例 : dj.txt
 ```
 fujimura
