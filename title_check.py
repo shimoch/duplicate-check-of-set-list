@@ -23,6 +23,7 @@ def check(one, others):
 		one_song_list = [i.strip() for i in f.readlines()]
 		one_set = set(one_song_list)
 
+	path = one.replace("set_list/", "result/").replace(".txt", "._overlapping.txt")
 	L = []
 	for row in others:
 		with open(row) as f:
@@ -32,9 +33,11 @@ def check(one, others):
 			if len(intersection) >= 1:
 				L = list(intersection)
 				for l in L:
-					print(row.replace("set_list/", "").replace(".txt", "") + " と【" + l + "】が重複！")
+					with open(path, mode='w') as f:
+						f.write(row.replace("set_list/", "").replace(".txt", "") + " と【" + l + "】が重複！")
 	if len(L) == 0:
-		print("重複なし！")
+		with open(path, mode='w') as f:
+			f.write("重複なし！")
 
 if __name__ == '__main__':
 	"""
@@ -50,9 +53,5 @@ if __name__ == '__main__':
 	with open("dj.txt") as f:
 		member_list = [member.strip() for member in f.readlines()]
 	for x in member_list:
-		print("="*22 + " < " + x +" > " + "="*22)
 		y, z = divide_set_list(x)
 		check(y, z)
-		print("="*60)
-		print("\n")
-		print("\n")
