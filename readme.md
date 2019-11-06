@@ -1,6 +1,6 @@
 # 使用方法
 
-#### title_check ディレクトリ直下に `dj.txt` を作成し、英小文字でDJ名を記入
+#### title_check ディレクトリ直下に `dj.txt` を作成し、英小文字でDJ名を中身に記入
 例 : dj.txt
 ```
 fujimura
@@ -10,7 +10,7 @@ suzuki
 ...
 ```
 
-#### set_list ディレクトリ内に、各人のセットリストを、`DJ名.txt`として配置
+#### set_list ディレクトリ内に、各人から受け取ったセットリストを、`DJ名.txt`として配置
 ```
 fujimura.txt
 shimoda.txt
