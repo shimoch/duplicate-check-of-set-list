@@ -22,7 +22,7 @@ suzuki.txt
 
 #### 3.  title_check ディレクトリで以下を実行
 ```
-python3 title_check.py > result/overlapping.txt
+python3 title_check.py
 ```
 
-#### 4.  result ディレクトリ内に、曲の重複結果 `overlapping.txt` が生成されるので内容を確認
+#### 4.  result ディレクトリ内に、曲の重複結果 `DJ名_overlapping.txt` が生成されるので内容を確認
