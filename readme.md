@@ -10,11 +10,13 @@ suzuki
 ...
 ```
 
-#### set_list ディレクトリ内に 各DJのセットリスト をテキストファイルで配置
+#### set_list ディレクトリ内に、各人のセットリストを、上記DJ名のテキストファイルとして配置
 ```
 fujimura.txt
 shimoda.txt
 suzuki.txt
+...
+...
 ```
 
 
@@ -23,4 +25,4 @@ suzuki.txt
 python3 title_check.py > result/overlapping.txt
 ```
 
-#### result ディレクトリ内に、曲の重複結果 overlapping.txt が生成されているので、内容を確認
+#### result ディレクトリ内に、曲の重複結果 overlapping.txt が生成されているので内容を確認
