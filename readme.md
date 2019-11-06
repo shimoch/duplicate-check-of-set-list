@@ -10,7 +10,7 @@ suzuki
 ...
 ```
 
-#### 2.  set_list ディレクトリ内に、各人から受け取ったセットリストを、`DJ名.txt`として配置
+#### 2.  set_list ディレクトリ下に、各人から受け取ったセットリストを、`DJ名.txt`として配置
 ```
 fujimura.txt
 shimoda.txt
