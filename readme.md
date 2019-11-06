@@ -10,6 +10,14 @@ suzuki
 ...
 ```
 
+#### set_list ディレクトリ内に 各DJのセットリスト をテキストファイルで配置
+```
+fujimura.txt
+shimoda.txt
+suzuki.txt
+```
+
+
 #### title_check ディレクトリで以下を実行
 ```
 python3 title_check.py > result/overlapping.txt
