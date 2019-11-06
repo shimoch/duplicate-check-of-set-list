@@ -24,5 +24,11 @@ suzuki.txt
 ```
 python3 title_check.py
 ```
+#### 4.  ターミナル上に、曲被りの有無が標準出力される
+fujimura は OK
+shimoda は OK
+suzuki は 【重複あり】
+...
+...
 
-#### 4.  result ディレクトリ内に、曲の重複結果 `DJ名_overlapping.txt` が生成されるので内容を確認
+#### 5.  result ディレクトリ内に、曲の重複結果 `DJ名_overlapping.txt` が生成されるので、詳細が確認出来る
