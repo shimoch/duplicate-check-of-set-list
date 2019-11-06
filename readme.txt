@@ -1,12 +1,27 @@
-・title_check ディレクトリ直下に dj.txt を作成し、英小文字でDJ名を記入
+1. title_check ディレクトリ直下に dj.txt を作成し、DJ名を英小文字で中身に記入
 例 : dj.txt
+
 fujimura
 shimoda
 suzuki
 ...
 ...
 
-・title_check ディレクトリで以下を実行
-python3 title_check.py > result/overlapping.txt
+2. set_list ディレクトリ下に、各人から受け取ったセットリストを、DJ名.txtとして配置
+fujimura.txt
+shimoda.txt
+suzuki.txt
+...
+...
 
-・result ディレクトリ内に、曲の重複結果 overlapping.txt が生成されているので、内容を確認
+3. title_check ディレクトリで以下を実行
+python3 title_check.py
+
+4. ターミナル上に、曲被りの有無が標準出力される
+fujimura は OK
+shimoda は OK
+suzuki は 【重複あり】
+...
+...
+
+5. result ディレクトリ内に、曲の重複結果 DJ名_overlapping.txt が生成されるので、詳細が確認出来る
